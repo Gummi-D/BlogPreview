@@ -42,7 +42,6 @@ button {
     color: #111111;
     width: 82px;
     height: 29px;
-    border: 1px solid #000000;
     border-radius: 4px;
     font-family: 'fig';
     font-size: 14px;
@@ -86,5 +85,5 @@ h4 {
 
 .signature p {
     margin: 0;
-    
+
 }
