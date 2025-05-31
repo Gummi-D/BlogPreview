@@ -61,6 +61,14 @@ h2 {
     margin-bottom: 12px;
 }
 
+a {
+    text-decoration: none;
+}
+
+h2:hover {
+    color: #F4D04e;
+}
+
 h4 {
     font-family: 'fig';
     color: #6B6B6B;
