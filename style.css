@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "fig";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4D04e;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    height: 522px;
+    width: 384px;
+    border-radius: 20px;
+    border: 1px solid #111111;
+    box-shadow: 10px 10px #111111;
+    padding: 24px 24px 24px 24px;
+}
+
+.art {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+button {
+    background-color: #F4D04e;
+    color: #111111;
+    width: 82px;
+    height: 29px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: 'fig';
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-family: 'fig';
+    font-size: 24px;
+    font-weight: bolder;
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-family: 'fig';
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'fig';
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+.signature img {
+    height: 32px;
+    margin-right: 12px;
+    display: block;
+}
+
+.signature p {
+    margin: 0;
+    
+}
